@@ -35,7 +35,7 @@ struct CityRowView: View {
     private func formatTime(_ date: Date) -> String {
         
         
-        // set formatter to UTC to avoid double timezone conversion
+        // set formatter to UTC to avoid double timezone
         
         timeFormatter.timeZone = TimeZone(identifier: "UTC")
         return timeFormatter.string(from: date)

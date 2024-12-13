@@ -50,7 +50,7 @@ struct AboutView: View {
                     
                     // App Info
                     VStack(spacing: 15) {
-                        Text("Version 1.0")
+                        Text("Version 1.0.0")
                             .font(.title2)
                             .foregroundColor(.white)
                     }
